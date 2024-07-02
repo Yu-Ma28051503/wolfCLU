@@ -37,6 +37,7 @@ static const struct option rsa_options[] = {
     {"-noout",     no_argument,       0, WOLFCLU_NOOUT     },
     {"-modulus",   no_argument,       0, WOLFCLU_MODULUS   },
     {"-RSAPublicKey_in", no_argument, 0, WOLFCLU_RSAPUBIN  },
+    {"-pubout", no_argument,          0, WOLFCLU_RSAPUBOUT },
     {"-help",      no_argument,       0, WOLFCLU_HELP      },
     {"-h",         no_argument,       0, WOLFCLU_HELP      },
 
