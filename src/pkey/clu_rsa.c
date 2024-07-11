@@ -37,7 +37,7 @@ static const struct option rsa_options[] = {
     {"-noout",     no_argument,        0, WOLFCLU_NOOUT     },
     {"-modulus",   no_argument,        0, WOLFCLU_MODULUS   },
     {"-RSAPublicKey_in", no_argument,  0, WOLFCLU_RSAPUBIN  },
-    {"-RSAPublicKey_out", no_argument, 0, WOLFCLU_RSAPUBOUT },  // add new option
+    {"-RSAPublicKey_out", no_argument, 0, WOLFCLU_RSAPUBOUT },
     {"-help",      no_argument,        0, WOLFCLU_HELP      },
     {"-h",         no_argument,        0, WOLFCLU_HELP      },
 
@@ -124,7 +124,7 @@ int wolfCLU_RSA(int argc, char** argv)
                 pubOnly = 1;
                 break;
 
-            case WOLFCLU_RSAPUBOUT:  // add
+            case WOLFCLU_RSAPUBOUT:
                 pubOut = 1;
                 break;
 
@@ -281,7 +281,7 @@ int wolfCLU_RSA(int argc, char** argv)
         }
         /* Output DER form public key */
         else {
-                /* now nothing */
+                /* now do nothing */
         }
     }
 
