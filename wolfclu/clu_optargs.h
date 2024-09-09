@@ -129,6 +129,8 @@ enum {
 /* 3des */
 #define WOLFCLU_DESCBC 2018
 
+/* signeture */
+#define WOLFCLU_DILITHIUM 2019
 
 #define WOLFCLU_PBKDF2 2
 #define WOLFCLU_PBKDF1 1
